@@ -1,0 +1,75 @@
+
+
+.container {
+    max-width: 600px;
+    width: 100%; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  
+  .title {
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .MuiTextField-root {
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  
+
+  .MuiButton-containedPrimary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  span {
+    text-decoration: underline;
+  }
+  
+  span:hover {
+    text-decoration: none;
+    color: #004085;
+  }
+  
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px 15px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .MuiButton-containedSecondary {
+    background-color: #ff4444;
+    color: #fff;
+  }
+  
+  .MuiButton-containedSecondary:hover {
+    background-color: #cc0000;
+  }
+  
